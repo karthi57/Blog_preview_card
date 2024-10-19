@@ -88,8 +88,17 @@ footer img{
     height: 30px;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
 
-@media (max-width:375px) {
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+@media  (max-width:720px) {
     .container{
         width: 88%;
     }
